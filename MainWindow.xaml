@@ -1,0 +1,50 @@
+﻿<Window x:Class="MyToastNotification.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyToastNotification"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="450" ResizeMode="NoResize">
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Column="0">
+                <StackPanel VerticalAlignment="Bottom">
+                    <Grid HorizontalAlignment="Center">
+                        <TextBlock Text="Caption" />
+                    </Grid>
+                    <Canvas Height="10"/>
+                    <Grid HorizontalAlignment="Center">
+                        <TextBox Name="_tbCaption" Height="50" Width="150" />
+                    </Grid>
+                </StackPanel>
+            </Grid>
+
+            <Grid Grid.Column="1">
+                <StackPanel VerticalAlignment="Bottom">
+                    <Grid HorizontalAlignment="Center">
+                        <TextBlock Text="Message"/>
+                    </Grid>
+                    <Canvas Height="10"/>
+                    <Grid HorizontalAlignment="Center">
+                        <TextBox Name="_tbMessage" Height="50" Width="150" />
+                    </Grid>
+                </StackPanel>
+            </Grid>
+
+            <Grid Grid.Row="1" Grid.ColumnSpan="2">
+                <Button Name="_btnToast" Width="150" Height="50" Content="Send Toast Notification" Click="Toast_Click"/>
+            </Grid>
+        </Grid>
+
+    </Grid>
+</Window>

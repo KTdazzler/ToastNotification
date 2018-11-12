@@ -1,0 +1,16 @@
+C:\Users\Lin\Desktop\MyToastNotification\MyToastNotification\bin\x64\Debug\AppLogo.jpg
+C:\Users\Lin\Desktop\MyToastNotification\MyToastNotification\bin\x64\Debug\MyToastNotification.exe.config
+C:\Users\Lin\Desktop\MyToastNotification\MyToastNotification\bin\x64\Debug\MyToastNotification.exe
+C:\Users\Lin\Desktop\MyToastNotification\MyToastNotification\bin\x64\Debug\MyToastNotification.pdb
+C:\Users\Lin\Desktop\MyToastNotification\MyToastNotification\obj\x64\Debug\MainWindow.g.cs
+C:\Users\Lin\Desktop\MyToastNotification\MyToastNotification\obj\x64\Debug\App.g.cs
+C:\Users\Lin\Desktop\MyToastNotification\MyToastNotification\obj\x64\Debug\MyToastNotification_Content.g.cs
+C:\Users\Lin\Desktop\MyToastNotification\MyToastNotification\obj\x64\Debug\MyToastNotification_MarkupCompile.cache
+C:\Users\Lin\Desktop\MyToastNotification\MyToastNotification\obj\x64\Debug\MyToastNotification_MarkupCompile.lref
+C:\Users\Lin\Desktop\MyToastNotification\MyToastNotification\obj\x64\Debug\MainWindow.baml
+C:\Users\Lin\Desktop\MyToastNotification\MyToastNotification\obj\x64\Debug\MyToastNotification.g.resources
+C:\Users\Lin\Desktop\MyToastNotification\MyToastNotification\obj\x64\Debug\MyToastNotification.Properties.Resources.resources
+C:\Users\Lin\Desktop\MyToastNotification\MyToastNotification\obj\x64\Debug\MyToastNotification.csproj.GenerateResource.cache
+C:\Users\Lin\Desktop\MyToastNotification\MyToastNotification\obj\x64\Debug\MyToastNotification.csproj.CoreCompileInputs.cache
+C:\Users\Lin\Desktop\MyToastNotification\MyToastNotification\obj\x64\Debug\MyToastNotification.exe
+C:\Users\Lin\Desktop\MyToastNotification\MyToastNotification\obj\x64\Debug\MyToastNotification.pdb
