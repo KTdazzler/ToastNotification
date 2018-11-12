@@ -34,7 +34,7 @@ namespace MyToastNotification
 
         private void Toast_Click(object sender, RoutedEventArgs e)
         {
-            if (_toast == null )
+            if (_toast == null)
             {
                 // Get App ID
                 using (PowerShell powershell = PowerShell.Create())
@@ -51,12 +51,15 @@ namespace MyToastNotification
                     }
                 }
 
+                if (!String.IsNullOrEmpty(_appID))
+                {
+                    _toast = new MyToastNotifications(_appID);
+                }
             }
 
-            if (!String.IsNullOrEmpty(_appID))
+            if (_toast != null)
             {
                 // Send Toast Notification
-                _toast = new MyToastNotifications(_appID);
                 _toast.ShowNotification(String.IsNullOrEmpty(_tbCaption.Text) ? "MyCaption" : _tbCaption.Text,
                         String.IsNullOrEmpty(_tbMessage.Text) ? "MyMessage" : _tbMessage.Text);
             }
