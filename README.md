@@ -5,6 +5,9 @@ You will learn how to use ToastNotification class to trigger toast notification.
 
 Hope this can help you to figure out how to write a toast notification in Windows.  
   
+ 
+# Demo  
+1. Run MyToastNotification.exe  
   
   
 Reference:  
