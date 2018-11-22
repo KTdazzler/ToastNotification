@@ -7,6 +7,6 @@ Hope this can help you to figure out how to write a toast notification in Window
 
 
 
-Reference:
-ToastNotificaiton class(https://docs.microsoft.com/en-us/uwp/api/windows.ui.notifications.toastnotification)
+Reference:  
+ToastNotificaiton class(https://docs.microsoft.com/en-us/uwp/api/windows.ui.notifications.toastnotification)  
 https://docs.microsoft.com/en-US/windows/uwp/design/shell/tiles-and-notifications/adaptive-interactive-toasts
